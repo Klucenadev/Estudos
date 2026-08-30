@@ -7,9 +7,9 @@
     <title>pj html</title>
 </head>
 <body>
-<h1>teste de negrito e italico</h1>
+<h1>tipos de formatação</h1>
 <p>nasta fresa, <b>tem uma frase em negrito</b> usando a tag b (forma) usado mais no css</p>
-<p>nesta frase tem <strong>palavrans em negrito</strong> usando a tag strong (semantica) html</p>
+<p>nesta frase tem <strong>palavras em negrito</strong> usando a tag strong (semantica) html</p>
 <p>nestra frase tem <i>palavras em italico</i> usando a tag I (forma) usado mais no css</p>
 <p>nesta frase tem <em>palavras em italico </em>usando a tag EM (semantica) html</p>
 <p></p>
@@ -18,5 +18,38 @@
 <p>temos o tipo de texto sobrescrito ex: x<sup>20</sup>+2</p>
 <p>temos o tipo de texto subescrito ex: H<sub>2</sub>O</p>
 <p>teste push github</p>
+
+
+
+<h1>outras formatações</h1>
+<h2>codigo-fonte</h2>
+<h3>codigo-fonte usado para dar o mesmo espaço entre as letras. obs: pode ser usado sem a tag paragrafo</h3>
+o comando document.getElementByID('teste') é escrito em javascript (sem codigo-fonte)
+<p>o comando <code>document.getElementByID('teste')</code> é escrito em javascript (com codigo-fonte)</p>
+<h2>pre-formatação</h2>
+<h3>pre-formatação é utilizado quando se quer ter indentação. obs: da pra ser usado em onjunto com o codigo fonte</h3>
+<code>public class projeto1 {
+    public static void main(String[] args) {
+    System.out.println("projeto1");
+    }
+    (sem pre-formatação)
+</code>
+<br>
+<pre><code>public class projeto2 {
+        public static void main(String[] args) {
+    System.out.println("projeto2");
+
+    }
+}
+    (com pre-formatação)
+</code></pre>
+<h2>citações</h2>
+<p>como mark zuckerberg fala <q>maior risco é não assumir nenhum risco. Em um mundo que muda rapidamente, a única estratégia com garantia de fracasso é não assumir riscos</q>
+<p>como diz Martin Luther King </p>
+
+<blockquote>"A escuridão não pode expulsar a escuridão, apenas a luz pode fazer isso. O ódio não pode expulsar o ódio, só o amor pode fazer isso."</blockquote>
+<h2>abreviações</h2>
+<p>estou estudando <abbr title="HYPERTEXT MARKUP LENGUAGE">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+
 </body>
 </html>
