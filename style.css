@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+    body{
+        background-color: lightblue;
+
+    }
+
+    p{
+        color: white;
+    }
+    h1{
+        color: white;
+    }
+    h2{
+        color: white;
+    }
+    ol{
+        color: white;
+    }
+    ul{
+        color: white;
+    }
+    blockquote{
+        color: white;
+    }
+    pre{
+        color: white;
+    }
+    code{
+        color: white;
+    }
